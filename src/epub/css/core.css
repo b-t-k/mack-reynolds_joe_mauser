@@ -112,7 +112,7 @@ section[epub|type~="imprint"]{
 section[epub|type~="colophon"] header,
 section[epub|type~="imprint"] header{
 	line-height: 0;
-	margin-top: 3em;
+	margin-top: 1em;
 }
 
 section[epub|type~="colophon"] h2,
@@ -121,7 +121,7 @@ section[epub|type~="imprint"] h2{
 }
 
 img[epub|type~="z3998:publisher-logo"]{
-	max-width: 25%;
+	max-width: 50%;
 }
 
 section[epub|type~="colophon"] p,
@@ -186,7 +186,7 @@ section[epub|type~="copyright-page"] blockquote br{
 	}
 
 	section[epub|type~="imprint"] header{
-		margin-bottom: 2em;
+		margin-bottom: 0em;
 		margin-top: 0;
 	}
 
